@@ -1,0 +1,4 @@
+#!/bin/bash
+set -e
+docker build -t=quay.io/happypancake/wrk .
+docker push quay.io/happypancake/wrk
